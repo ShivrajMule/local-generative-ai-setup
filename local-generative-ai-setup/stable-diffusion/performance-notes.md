@@ -6,14 +6,15 @@
 * **RAM:** 16GB DDR5
 
 ## Test Case 1: Standard Generation
-* **Model:** Realistic_Vision_V5.1_fp16-no-ema.safetensors
+* **Model:** Realistic Vision V5.1 (FP16)
 * **Resolution:** 512x512
-* **Sampling Method:** Euler a
+* **Sampling Method:** DPM++ 2M
 * **Sampling Steps:** 20
-* **Batch Size:** 1
 * **Result:**
-    * Time taken: **4-5 seconds**
-    * Iterations per second (it/s): **5.10 it/s**
+    * Average Speed: **4.19 it/s**
+    * Generation Time: approx **5 seconds**
+* **Logs:**
+    > `Applying attention optimization: xformers... done`
 
 ## Test Case 2: High Quality / Upscale
 * **Model:** Realistic_Vision_V5.1_fp16-no-ema.safetensors
@@ -29,4 +30,5 @@
 
 ## 📝 Observations
 * Enabling xformers reduced generation time by approx 20%.
+
 * Generating images above 1024x1024 significantly drops `it/s` due to shared system RAM swapping.
