@@ -19,8 +19,11 @@ This repository documents the local deployment, configuration, and optimization 
 * **Performance:** * Average Generation Time:4-5 seconds (512x512, Euler a, 20 steps)
   * Peak VRAM Usage: 4.8 GB
 ### Sample Output
-![Image Description](./stable-diffusion/assets/your-image-name.jpg)
-> *Prompt: Cyberpunk city street, night time, neon lights...*
+![Image Description](./stable-diffusion/assets/output-1)
+> Prompt: > A hyper-realistic close-up portrait of an elderly fisherman, weathered skin with deep wrinkles, salt-and-pepper beard, wearing a yellow raincoat, soft natural overcast lighting, shot on 85mm lens, f/1.8, 8k resolution, highly detailed skin texture, masterpiece, cinematic look.
+
+Negative Prompt: > (deformed, distorted, disfigured:1.3), poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, (mutated hands and fingers:1.4), disconnected limbs, mutation, mutated, ugly, disgusting, blurry, amputation, tattoo, makeup, plastic skin, smooth skin.
+
 
 ---
 
