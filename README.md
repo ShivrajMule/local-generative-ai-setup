@@ -1,2 +1,36 @@
-# local-generative-ai-setup
-Configuration and performance benchmarking for running Stable Diffusion and Ollama locally on HP Victus AMD Ryzen 7 with RTX 3050 , 16 gb - 512gb
+# Local Generative AI Implementation 🚀
+
+This repository documents the local deployment, configuration, and optimization of Generative AI models (Stable Diffusion & Ollama) on consumer-grade hardware.
+
+## 💻 System Specifications
+* **OS:** Windows 11
+* **Processor:** Ryzen 7 7445HS
+* **RAM:** 16 GB DDR 5
+* **GPU:** NVIDIA RTX 3050 (6GB VRAM)
+
+---
+
+## 🎨 Project 1: Stable Diffusion (Image Generation)
+**Goal:** Run SDXL locally with optimized VRAM usage.
+
+### Configuration
+* **Interface:** Automatic1111
+* **Arguments Used:** `--xformers`
+* **Performance:** * Average Generation Time:4-5 seconds (512x512, Euler a, 20 steps)
+  * Peak VRAM Usage: 4.8 GB
+### Sample Output
+![Image Description](./stable-diffusion/assets/your-image-name.jpg)
+> *Prompt: Cyberpunk city street, night time, neon lights...*
+
+---
+
+## 🤖 Project 2: Ollama (Local LLM)
+**Goal:** Deploy a privacy-focused offline Chatbot.
+
+### Setup Details
+* **Engine:** Ollama
+* **Models:**
+    Daily Driver- llama3.1 (8B)
+    Coding- qwen2.5-coder:7b
+    Reasoning- deepseek-r1 (7B)
+* **Latency:** Approx  tokens/second
