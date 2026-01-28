@@ -47,7 +47,7 @@ To demonstrate the capabilities of the `Realistic_Vision_V5.1_fp16-no-ema` model
 > **Negative Prompt:** (worst quality, low quality:1.4), text, watermark, logo, banner, extra fingers, deformed hands, cartoon, illustration, painting, drawing, bad proportions.
 
 #### 3. Interior & Lighting Geometry
-![Modern Living Room](local-generative-ai-setup/stable-diffusion/Assets/output-3.png)
+![Modern Living Room](local-generative-ai-setup/stable-diffusion/Assets/output-4.png)
 > **Prompt:** Interior of a modern minimalist living room at sunset, large floor-to-ceiling windows, dust motes dancing in the light, high-end furniture, realistic shadows, architectural photography, photorealistic, volumetric lighting.
 >
 > **Negative Prompt:** (deformed, distorted:1.2), painting, sketch, drawing, lowres, text, cropped, oversaturated.
