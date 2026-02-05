@@ -16,7 +16,7 @@ This repository documents the local deployment, configuration, and optimization 
 ### Configuration
 * **Interface:** Automatic1111
 * **Arguments Used:** `--xformers` (Essential for 6GB VRAM efficiency)
-* **Performance:** * Average Generation Time: 4-5 seconds (512x512, DPM++ 2M, 20 steps)
+* **Performance:** Average Generation Time: 4-5 seconds (512x512, DPM++ 2M, 20 steps)
   * Peak VRAM Usage: 4.8 GB
 
 ---
